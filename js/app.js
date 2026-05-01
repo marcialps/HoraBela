@@ -151,7 +151,7 @@ const rNavbar = () => {
 <nav class="navbar">
   <div class="nb-inner">
     <div class="nb-logo" onclick="Nav.go('${isSuper?'superadmin':isAdm?'admin':'home'}')">
-      <div class="nb-logo-icon">💈</div>
+      <div class="nb-logo-icon"><img src="img/logo.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
       <span>${esc(logoText)}</span>
     </div>
     <ul class="nb-nav">
@@ -188,7 +188,7 @@ const rLogin = () => `
 <div class="auth-page">
   <div class="auth-card">
     <div style="text-align:center;margin-bottom:28px">
-      <div class="auth-logo-wrap">💈</div>
+      <div class="auth-logo-wrap"><img src="img/logo.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
       <span class="auth-logo-text">${esc(_tenantInfo?.name || 'SISTEMA')}</span>
       <span class="auth-logo-sub">Sistema de Agendamentos</span>
     </div>
@@ -221,7 +221,7 @@ const rRegister = () => `
 <div class="auth-page">
   <div class="auth-card">
     <div style="text-align:center;margin-bottom:28px">
-      <div class="auth-logo-wrap">💈</div>
+      <div class="auth-logo-wrap"><img src="img/logo.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
       <span class="auth-logo-text">${esc(_tenantInfo?.name || 'SISTEMA')}</span>
       <span class="auth-logo-sub">Sistema de Agendamentos</span>
     </div>
